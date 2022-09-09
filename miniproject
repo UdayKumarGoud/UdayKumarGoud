@@ -1,0 +1,281 @@
+package com.pack1.Mini_Project;
+import java.util.Scanner;
+public class ClassA 
+{
+	Scanner sc=new Scanner(System.in);
+	void meth1()
+	{
+		System.out.println("========== Welcome to Organic Store =========");
+		System.out.println("--------------------------------");
+		System.out.println();
+	}
+	void meth2()
+	{
+		System.out.println("Available products in the store");
+		System.out.println("1> Fruits");
+		System.out.println("2> Vegetables");
+		System.out.println("3> Cosmetics");
+		System.out.println("4> MasalaPowders");
+		System.out.println();
+	}
+	void meth3()
+	{
+		System.out.println("Please enter your choice ?");
+		System.out.println("--------------------------------");
+		int num=sc.nextInt();
+		if(num==1)
+		{
+		System.out.println("125 -----Mangoes ------1 kg is 50");
+		System.out.println("126-----Apples ------1 kg is 100");
+		System.out.println("127 -----Bananans ------1 kg is 25");
+		System.out.println("128 -----Papaya ------1 kg is 44");
+		System.out.println("129 -----Grapes ------1 kg is 60");
+		System.out.println("130 -----Oranges ------1 kg is 50");
+	    }
+		else if(num==2)
+		{
+			System.out.println("225 -----Potato ------1 kg is 41");
+			System.out.println("226-----Brinjal ------1 kg is 35");
+			System.out.println("227 -----Carrots ------1 kg is 60");
+			System.out.println("228 -----Beetroot ------1 kg is 44");
+			System.out.println("229 -----Drumstick ------1 kg is 60");
+			System.out.println("230 -----Mushroom ------1 kg is 50");
+			System.out.println("--------------------------------------");
+			System.out.println("==============================");
+			System.out.println("==============================");
+		}
+		else if(num==3)
+		{
+			System.out.println("100 -----SkinCare-----500");
+			System.out.println("101-----HairCare ------150");
+			System.out.println("102 -----SunCare ------250");
+			System.out.println("103 -----OralCare ------300");
+		}
+		else if(num==4)
+		{
+			System.out.println("171-------Garam Masala-----20");
+			System.out.println("172--------Jeera------------30");
+			System.out.println("173-------Tej Patta-----40");
+			System.out.println("174--------Amchoor------------50");
+		}
+		else
+		{
+			System.out.println("please enter valid choice");
+		}
+	}
+	void meth4()
+	{
+		System.out.println("please choose your product:");
+		int pc=sc.nextInt();
+		if(pc==125)
+		{
+			System.out.println("Mangoes is a good choice How many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==126)
+		{
+			System.out.println("apples is a good choice Howtt6t many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==127)
+		{
+			System.out.println("bananas is a good choice How many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==128)
+		{
+			System.out.println("papayas is a good choice How many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==129)
+		{
+			System.out.println("grapes is a good choice How many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==130)
+		{
+			System.out.println("oranges is a good choice How many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else 
+		{
+			System.out.println("please enter a valid product number");
+		}
+//		System.out.println("if you want to continue with shopping press 1");
+//		new ClassA().meth2();
+//
+//		System.out.println("if you want to exit press 2");
+//		new ClassA().meth3();
+	}
+	void meth5()
+	{
+		System.out.println("please choose your product:");
+		int pc=sc.nextInt();
+		if(pc==225)
+		{
+			System.out.println("Potato is a good choice How many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==226)
+		{
+			System.out.println("Brinjal is a good choice How many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==227)
+		{
+			System.out.println("carrot is a good choice How many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==228)
+		{
+			System.out.println("beetroot is a good choice How many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==229)
+		{
+			System.out.println("drumstick is a good choice How many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==230)
+		{
+			System.out.println("Mushroom is a good choice How many kgs you need?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else 
+		{
+			System.out.println("please enter a valid product number");
+		}
+	}
+	void meth6()
+	{
+		System.out.println("please choose your product:");
+		int pc=sc.nextInt();
+		if(pc==100)
+		{
+			System.out.println("---------skincare-----------?");
+			System.out.println("enter a number how many creams you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==101)
+		{
+			System.out.println("-----haircare-------");
+			System.out.println("enter a number how many creams you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==102)
+		{
+			System.out.println("-------suncare---------");
+			System.out.println("enter a number how many creams you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==103)
+		{
+			System.out.println("-------oralcare");
+			System.out.println("enter a number how many creams you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else 
+		{
+			System.out.println("please enter a valid product number");
+		}
+	}
+	void meth7()
+	{
+		System.out.println("please choose your product:");
+		int pc=sc.nextInt();
+		if(pc==171)
+		{
+			System.out.println("---------Garam Masala-----------?");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==172)
+		{
+			System.out.println("-----jeera-------");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==173)
+		{
+			System.out.println("-------Tej Patta---------");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else if(pc==174)
+		{
+			System.out.println("-------amchoor--------");
+			System.out.println("enter a number how many kgs you want");
+			int num1=sc.nextInt();
+			System.out.println(num1);
+		}
+		else 
+		{
+			System.out.println("please enter a valid product number");
+		}
+	}
+	void meth8()
+	{
+		int items=sc.nextInt();
+		int discount=items*5/100;
+		int finalbill=items-discount;
+		if(items>=600)
+		{
+		System.out.println("========== Welcome to Organic Store =========");
+		System.out.println("Total bill of your purchased items is:"+items);
+		System.out.println("You received a discout of 5%:"+discount);
+		System.out.println("Final bill is :"+finalbill);
+		System.out.println("==========Thank you for shopping you saved 30rs =========");
+		System.out.println("==========JAVA IS AWESOME =========");
+		}
+		else
+		{
+			System.out.println("Total bill of your purchased items is:"+items);
+			System.out.println("Final bill is :"+finalbill);
+		}
+	}
+	public static void main(String[] args)
+	{
+		ClassA aobj=new ClassA();
+		aobj.meth1();
+		aobj.meth2();
+	    aobj.meth3();
+		aobj.meth4();
+		aobj.meth5();
+		aobj.meth6();
+		aobj.meth7();
+		aobj.meth8();
+	}
+}
+
+
